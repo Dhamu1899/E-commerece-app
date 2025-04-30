@@ -15,6 +15,7 @@ export default function App() {
          <NavigationMenu />
 
       <Routes>
+        <Route path="/" element={<Shop />} /> 
         <Route path="/shop" element={<Shop />} />
         <Route path="/skills" element={<Skills />} />
         <Route path="/stories" element={<Stories />} />
